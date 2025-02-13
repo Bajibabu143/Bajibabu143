@@ -1,0 +1,14 @@
+a="abcd"
+print(a.islower())
+
+b="ABgD"
+print(b.isupper())
+
+c=""
+print(c.isspace())
+
+d="The animal"
+print(d.title())
+
+d="The Animal"
+print(d.istitle())
