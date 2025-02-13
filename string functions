@@ -12,3 +12,27 @@ print(d.title())
 
 d="The Animal"
 print(d.istitle())
+
+e="Hello World"
+print(e.find("World"))
+
+f="Hello World"
+print(f.find("res"))
+
+g="Hello World"
+print(g.index("World"))
+
+h="The animal the"
+print(h.replace("the","is"))
+
+i="Hello world"
+print(i.count("l"))
+
+j="    hello    "
+print(j.lstrip())
+
+j="    hello    "
+print(j.rstrip())
+
+k="0123"
+print(k.zfill(6))
