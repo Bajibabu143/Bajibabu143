@@ -1,0 +1,36 @@
+tuple = (1,2,5,'s')
+print(tuple[1])
+
+r = 1,2,3
+print(r)
+
+a,b,c,d = (1,2,3,4)
+print(a)
+print(b)
+print(c)
+print(d)
+
+l = (1,2,3,4,"f")
+print(l.count(2))
+print(l.index(3))
+
+g = (1,2,3,4)
+g1 = (5,6,7,8)
+print(g+g1)
+
+y = (0,2,7)
+u=y*3
+print(u)
+
+res = (4 )
+print(res)
+
+h = (20,30,40)
+print(20 in h)
+
+h = (20,30,40)
+print(2 in h)
+
+k = (1,2,3,4,5,65,'s','a','b')
+for i in k:
+    print(i)
